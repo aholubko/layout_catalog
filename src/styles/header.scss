@@ -43,12 +43,13 @@ $hover-color: #00acdc;
 
   &__link {
     text-decoration: none;
-    color: black;
+    color: #060b35;
     position: relative;
   }
 
   &__link:hover {
     color: $hover-color;
+    transition: all $transition-duration linear;
   }
 }
 
